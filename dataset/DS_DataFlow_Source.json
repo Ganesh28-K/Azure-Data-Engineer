@@ -1,0 +1,23 @@
+{
+	"name": "DS_DataFlow_Source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LinkedserviceDL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "csvfile",
+				"fileSystem": "report"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
