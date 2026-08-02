@@ -5,11 +5,20 @@
 		"factoryName": {
 			"value": "adfemployee001"
 		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
 		"LinkedserviceDL_accountKey": {
 			"value": ""
 		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adlsemployee001.dfs.core.windows.net/"
+		},
 		"LinkedserviceDL_properties_typeProperties_url": {
 			"value": "https://adlsemployee001.dfs.core.windows.net/"
+		},
+		"ls_GIT_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
 		}
 	}
 }

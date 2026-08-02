@@ -7,13 +7,25 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "adfemployee001"
 		},
+		"AzureDataLakeStorage1_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage1'"
+		},
 		"LinkedserviceDL_accountKey": {
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'LinkedserviceDL'"
 		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://adlsemployee001.dfs.core.windows.net/"
+		},
 		"LinkedserviceDL_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://adlsemployee001.dfs.core.windows.net/"
+		},
+		"ls_GIT_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://raw.githubusercontent.com/"
 		},
 		"containerUri": {
 			"type": "string",
@@ -42,11 +54,20 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
+					"AzureDataLakeStorage1_accountKey": {
+						"value": "[parameters('AzureDataLakeStorage1_accountKey')]"
+					},
 					"LinkedserviceDL_accountKey": {
 						"value": "[parameters('LinkedserviceDL_accountKey')]"
 					},
+					"AzureDataLakeStorage1_properties_typeProperties_url": {
+						"value": "[parameters('AzureDataLakeStorage1_properties_typeProperties_url')]"
+					},
 					"LinkedserviceDL_properties_typeProperties_url": {
 						"value": "[parameters('LinkedserviceDL_properties_typeProperties_url')]"
+					},
+					"ls_GIT_properties_typeProperties_url": {
+						"value": "[parameters('ls_GIT_properties_typeProperties_url')]"
 					}
 				}
 			},
