@@ -1,0 +1,15 @@
+{
+	"name": "adfemployee001",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "416e966d-90cb-4a31-af9b-7bb3deb89c56",
+		"tenantId": "723d03a3-b179-4199-8033-5d247bf5b69e"
+	}
+}
