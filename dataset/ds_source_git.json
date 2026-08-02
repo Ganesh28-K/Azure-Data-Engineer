@@ -1,0 +1,22 @@
+{
+	"name": "ds_source_git",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_GIT",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "Ganesh28-K/Azure-Data-Engineer/refs/heads/main/csv_files/Fact_Sales_2%20(1).csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
