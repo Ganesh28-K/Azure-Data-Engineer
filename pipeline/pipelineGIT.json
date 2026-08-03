@@ -54,7 +54,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "ds_sink_git",
+						"referenceName": "sinkCSV",
 						"type": "DatasetReference"
 					}
 				]
